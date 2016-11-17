@@ -93,7 +93,7 @@ class TestInvalidNotifiable
      */
     public function routeNotificationForAuthy()
     {
-        return null;
+        //
     }
 }
 
