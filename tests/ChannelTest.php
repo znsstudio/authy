@@ -75,7 +75,6 @@ class ChannelTest extends TestCase
             ],
         ];
         $client->shouldReceive('get')
-               ->once()
                ->with($url, $params)
                ->andReturn($response);
 
